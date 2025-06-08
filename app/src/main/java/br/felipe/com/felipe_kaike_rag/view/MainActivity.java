@@ -8,7 +8,7 @@ import android.widget.LinearLayout;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-import br.felipe.com.felipe_kaike_rag.OpcoesActivity;
+import br.felipe.com.felipe_kaike_rag.view.OpcoesActivity;
 import br.felipe.com.felipe_kaike_rag.R;
 
 public class MainActivity extends AppCompatActivity {

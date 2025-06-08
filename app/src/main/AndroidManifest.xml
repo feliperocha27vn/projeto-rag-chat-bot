@@ -27,8 +27,12 @@
             </intent-filter>
         </activity>
 
-        <activity android:name=".OpcoesActivity" />
-
+        <activity android:name=".view.OpcoesActivity" />
+        <activity android:name=".view.InfosAcademicas" />
+        <activity android:name=".view.TourFateb" />
+        <activity android:name=".view.CorpoDocente" />
+        <activity android:name=".view.OutrasDuvidas" />
+        <activity android:name=".view.RespostaActivity" />
     </application>
 
 </manifest>

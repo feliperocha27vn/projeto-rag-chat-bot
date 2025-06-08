@@ -1,4 +1,4 @@
-package br.felipe.com.felipe_kaike_rag;
+package br.felipe.com.felipe_kaike_rag.view;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -33,6 +33,38 @@ public class OpcoesActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 Intent intent = new Intent(OpcoesActivity.this, MainActivity.class);
+                startActivity(intent);
+            }
+        });
+
+        opcaoInfosAcademicas.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(OpcoesActivity.this, InfosAcademicas.class);
+                startActivity(intent);
+            }
+        });
+
+        opcaoTourFateb.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(OpcoesActivity.this, TourFateb.class);
+                startActivity(intent);
+            }
+        });
+
+        opcaoCorpoDocente.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(OpcoesActivity.this, CorpoDocente.class);
+                startActivity(intent);
+            }
+        });
+
+        opcaoOutrasDuvidas.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(OpcoesActivity.this, OutrasDuvidas.class);
                 startActivity(intent);
             }
         });
